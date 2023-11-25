@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Handwritten";
+    /* src: url(fonts/Yomogi-Regular.ttf) format("truetype"); */
+    src: url(fonts/NotoSansJP-Regular.ttf) format("truetype");
+    }
+
+    @font-face {
+        font-family: 'Noto Sans Japanese';
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/NotoSansJP-Regular.woff2) format('woff2'),
+             url(fonts/NotoSansJP-Regular.woff) format('woff'),
+             url(fonts/NotoSansJP-Regular.otf) format('opentype'),
+             url(fonts/NotoSansJP-Regular.ttf) format("truetype");
+      }
+
+    p
+    {
+        font-family: "Noto Sans Japanese";
+        font-weight: 400;
+    }
